@@ -5,6 +5,7 @@
 * cocktail_sort_list - Sorts a doubly linked list using the Cocktail Shaker Sort algorithm
 * @list: Pointer to a pointer to the head of the list
 */
+
 void cocktail_sort_list(listint_t **list)
 {
 	int swapped = 1;
@@ -57,6 +58,7 @@ void cocktail_sort_list(listint_t **list)
 * @node1: First node to be swapped
 * @node2: Second node to be swapped
 */
+
 void swap_nodes(listint_t **list, listint_t *node1, listint_t *node2)
 {
 	if (node1->prev != NULL)
